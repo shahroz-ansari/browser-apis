@@ -11,6 +11,11 @@ const Home: FC<object> = () => (
           Contact Picker API <ExternalLinkIcon width="18px" height="18px" />
         </Link>
       </li>
+      <li className="border-b py-2">
+        <Link to="/geolocation" className="flex items-center">
+          Geolocation API <ExternalLinkIcon width="18px" height="18px" />
+        </Link>
+      </li>
     </ul>
   </div>
 );
