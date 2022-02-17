@@ -16,6 +16,11 @@ const Home: FC<object> = () => (
           Geolocation API <ExternalLinkIcon width="18px" height="18px" />
         </Link>
       </li>
+      <li className="border-b py-2">
+        <Link to="/drag-drop" className="flex items-center">
+          Drag Drop API <ExternalLinkIcon width="18px" height="18px" />
+        </Link>
+      </li>
     </ul>
   </div>
 );
