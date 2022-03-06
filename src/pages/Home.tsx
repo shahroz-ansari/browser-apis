@@ -20,6 +20,10 @@ const Home: FC<object> = () => {
       path: '/clipboard',
       name: 'Copy to Clipboard API',
     },
+    {
+      path: '/notification',
+      name: 'Notification API',
+    },
   ];
   return (
     <div className="flex flex-col bg-slate-200 min-h-screen">
